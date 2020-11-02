@@ -25,7 +25,12 @@ layout: postlayout
         </div>
       </div>               
     </div> 
-    {{ content }}
+    <iframe src="{{page.content}}" width="100%" class="myIframe">
+    </iframe>
+    <script type="text/javascript" language="javascript"> 
+      $('.myIframe').css('height', ($(window).height()-200)+'px');
+    </script>
+    </amp-iframe>
     <div class="date">
       <p>Written on {{ page.date | date: "%B %e, %Y" }}.</p>            
     </div>
