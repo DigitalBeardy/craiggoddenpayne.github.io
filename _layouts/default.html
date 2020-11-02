@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>    
+    {% include meta.html %}    
+    {% include styles.html %}
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "title": "Craig Godden-Payne | Principal Software Engineer",
+        "name": "Craig Godden-Payne",
+        "url": "https://craig.goddenpayne.co.uk"
+      }
+    </script>
+  </head>  
+  <body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71949672-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-71949672-1');
+    </script>
+    <div id="main" role="main">
+        <div class="container">
+            {% include header.html %}         
+        </div>     
+        {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

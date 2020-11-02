@@ -1,0 +1,25 @@
+<div class="wrapper-footer">
+  <div class="container">
+    <footer class="footer">
+      <p>Craig Godden-Payne has a passion for all things tech. When he’s not playing with tech, he is probably writing about it! Send him an email at craig@goddenpayne.co.uk &copy; 2020 Craig Godden-Payne</p>
+      <amp-social-share type="email"></amp-social-share>
+      <amp-social-share type="facebook"></amp-social-share>
+      <amp-social-share type="gplus"></amp-social-share>
+      <amp-social-share type="linkedin"></amp-social-share>
+      <amp-social-share type="pinterest"></amp-social-share>
+      <amp-social-share type="tumblr"></amp-social-share>
+      <amp-social-share type="twitter"></amp-social-share>
+      <amp-social-share type="whatsapp"></amp-social-share>  
+
+      <p>
+      Other posts that might interest you...
+<br />
+<ul>  {% for post in site.posts limit:15 %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+    
+    </p>
+    </footer>
+  </div>
+</div>

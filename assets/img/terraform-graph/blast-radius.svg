@@ -1,0 +1,438 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20180530151517843" class="svg-pan-zoom_viewport" transform="matrix(1.4282031251062042,0,0,1.4282031251062042,36.76268373906305,13.209549776823788)" style="transform: matrix(1.4282, 0, 0, 1.4282, 36.7627, 13.2095);">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 616)">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-616 1230,-616 1230,4 -4,4"/>
+<!-- [root] aws_api_gateway_base_path_mapping.site_api -->
+<g id="node_0" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="598.5,-450 598.5,-465 778.5,-465 778.5,-450 598.5,-450" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="601.5" y="-455.6" font-family="courier new" font-size="8.00">aws_api_gateway_base_path_mapping</text>
+<polygon fill="none" stroke="black" points="598.5,-435 598.5,-450 778.5,-450 778.5,-435 598.5,-435"/>
+<text text-anchor="start" x="667" y="-440.6" font-family="courier new" font-size="8.00">site_api</text>
+</g>
+<!-- [root] aws_api_gateway_deployment.site_api -->
+<g id="node_1" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="617.5,-378 617.5,-393 760.5,-393 760.5,-378 617.5,-378" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="620.5" y="-383.6" font-family="courier new" font-size="8.00">aws_api_gateway_deployment</text>
+<polygon fill="none" stroke="black" points="617.5,-363 617.5,-378 760.5,-378 760.5,-363 617.5,-363"/>
+<text text-anchor="start" x="667.5" y="-368.6" font-family="courier new" font-size="8.00">site_api</text>
+</g>
+<!-- [root] aws_api_gateway_base_path_mapping.site_api&#45;&gt;[root] aws_api_gateway_deployment.site_api -->
+<g id="edge_0" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M688.5,-431.697C688.5,-423.983 688.5,-414.712 688.5,-406.112"/>
+<polygon fill="black" stroke="black" points="692,-406.104 688.5,-396.104 685,-406.104 692,-406.104"/>
+</g>
+<!-- [root] aws_api_gateway_integration.authentication_post -->
+<g id="node_2" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="411.5,-306 411.5,-321 559.5,-321 559.5,-306 411.5,-306" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="414.5" y="-311.6" font-family="courier new" font-size="8.00">aws_api_gateway_integration</text>
+<polygon fill="none" stroke="black" points="411.5,-291 411.5,-306 559.5,-306 559.5,-291 411.5,-291"/>
+<text text-anchor="start" x="435.5" y="-296.6" font-family="courier new" font-size="8.00">authentication_post</text>
+</g>
+<!-- [root] aws_api_gateway_deployment.site_api&#45;&gt;[root] aws_api_gateway_integration.authentication_post -->
+<g id="edge_1" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M639.1,-359.966C610.613,-350.142 574.614,-337.729 544.629,-327.389"/>
+<polygon fill="black" stroke="black" points="545.716,-324.062 535.121,-324.111 543.434,-330.68 545.716,-324.062"/>
+</g>
+<!-- [root] aws_api_gateway_integration.users_post -->
+<g id="node_3" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="615.5,-306 615.5,-321 763.5,-321 763.5,-306 615.5,-306" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="618.5" y="-311.6" font-family="courier new" font-size="8.00">aws_api_gateway_integration</text>
+<polygon fill="none" stroke="black" points="615.5,-291 615.5,-306 763.5,-306 763.5,-291 615.5,-291"/>
+<text text-anchor="start" x="663" y="-296.6" font-family="courier new" font-size="8.00">users_post</text>
+</g>
+<!-- [root] aws_api_gateway_deployment.site_api&#45;&gt;[root] aws_api_gateway_integration.users_post -->
+<g id="edge_2" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M688.747,-359.697C688.857,-351.983 688.99,-342.712 689.113,-334.112"/>
+<polygon fill="black" stroke="black" points="692.612,-334.153 689.256,-324.104 685.613,-334.053 692.612,-334.153"/>
+</g>
+<!-- [root] aws_api_gateway_method.authentication_post -->
+<g id="node_4" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="273.5,-234 273.5,-249 395.5,-249 395.5,-234 273.5,-234" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="276.5" y="-239.6" font-family="courier new" font-size="8.00">aws_api_gateway_method</text>
+<polygon fill="none" stroke="black" points="273.5,-219 273.5,-234 395.5,-234 395.5,-219 273.5,-219"/>
+<text text-anchor="start" x="284.5" y="-224.6" font-family="courier new" font-size="8.00">authentication_post</text>
+</g>
+<!-- [root] aws_api_gateway_integration.authentication_post&#45;&gt;[root] aws_api_gateway_method.authentication_post -->
+<g id="edge_3" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M448.561,-287.876C428.01,-278.349 402.249,-266.407 380.411,-256.283"/>
+<polygon fill="black" stroke="black" points="381.863,-253.099 371.319,-252.068 378.919,-259.45 381.863,-253.099"/>
+</g>
+<!-- [root] aws_lambda_function.authentication -->
+<g id="node_14" class="node" fill="#ff7f0e" opacity="1">
+<polygon fill="none" stroke="black" points="433.5,-234 433.5,-249 539.5,-249 539.5,-234 433.5,-234" style="fill: rgb(255, 127, 14);"/>
+<text text-anchor="start" x="436.5" y="-239.6" font-family="courier new" font-size="8.00">aws_lambda_function</text>
+<polygon fill="none" stroke="black" points="433.5,-219 433.5,-234 539.5,-234 539.5,-219 433.5,-219"/>
+<text text-anchor="start" x="449.5" y="-224.6" font-family="courier new" font-size="8.00">authentication</text>
+</g>
+<!-- [root] aws_api_gateway_integration.authentication_post&#45;&gt;[root] aws_lambda_function.authentication -->
+<g id="edge_4" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M485.747,-287.697C485.857,-279.983 485.99,-270.712 486.113,-262.112"/>
+<polygon fill="black" stroke="black" points="489.612,-262.153 486.256,-252.104 482.613,-262.053 489.612,-262.153"/>
+</g>
+<!-- [root] aws_api_gateway_method.users_post -->
+<g id="node_5" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="561.5,-234 561.5,-249 683.5,-249 683.5,-234 561.5,-234" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="564.5" y="-239.6" font-family="courier new" font-size="8.00">aws_api_gateway_method</text>
+<polygon fill="none" stroke="black" points="561.5,-219 561.5,-234 683.5,-234 683.5,-219 561.5,-219"/>
+<text text-anchor="start" x="596" y="-224.6" font-family="courier new" font-size="8.00">users_post</text>
+</g>
+<!-- [root] aws_api_gateway_integration.users_post&#45;&gt;[root] aws_api_gateway_method.users_post -->
+<g id="edge_5" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M672.938,-287.697C664.825,-279.22 654.912,-268.864 646.029,-259.583"/>
+<polygon fill="black" stroke="black" points="648.314,-256.908 638.871,-252.104 643.257,-261.749 648.314,-256.908"/>
+</g>
+<!-- [root] aws_lambda_function.users -->
+<g id="node_15" class="node" fill="#ff7f0e" opacity="1">
+<polygon fill="none" stroke="black" points="703.5,-234 703.5,-249 809.5,-249 809.5,-234 703.5,-234" style="fill: rgb(255, 127, 14);"/>
+<text text-anchor="start" x="706.5" y="-239.6" font-family="courier new" font-size="8.00">aws_lambda_function</text>
+<polygon fill="none" stroke="black" points="703.5,-219 703.5,-234 809.5,-234 809.5,-219 703.5,-219"/>
+<text text-anchor="start" x="743" y="-224.6" font-family="courier new" font-size="8.00">users</text>
+</g>
+<!-- [root] aws_api_gateway_integration.users_post&#45;&gt;[root] aws_lambda_function.users -->
+<g id="edge_6" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M706.062,-287.697C714.175,-279.22 724.088,-268.864 732.971,-259.583"/>
+<polygon fill="black" stroke="black" points="735.743,-261.749 740.129,-252.104 730.686,-256.908 735.743,-261.749"/>
+</g>
+<!-- [root] aws_api_gateway_resource.authentication -->
+<g id="node_10" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="268.5,-162 268.5,-177 401.5,-177 401.5,-162 268.5,-162" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="271.5" y="-167.6" font-family="courier new" font-size="8.00">aws_api_gateway_resource</text>
+<polygon fill="none" stroke="black" points="268.5,-147 268.5,-162 401.5,-162 401.5,-147 268.5,-147"/>
+<text text-anchor="start" x="298" y="-152.6" font-family="courier new" font-size="8.00">authentication</text>
+</g>
+<!-- [root] aws_api_gateway_method.authentication_post&#45;&gt;[root] aws_api_gateway_resource.authentication -->
+<g id="edge_7" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M334.5,-215.697C334.5,-207.983 334.5,-198.712 334.5,-190.112"/>
+<polygon fill="black" stroke="black" points="338,-190.104 334.5,-180.104 331,-190.104 338,-190.104"/>
+</g>
+<!-- [root] aws_api_gateway_resource.users -->
+<g id="node_11" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="419.5,-162 419.5,-177 552.5,-177 552.5,-162 419.5,-162" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="422.5" y="-167.6" font-family="courier new" font-size="8.00">aws_api_gateway_resource</text>
+<polygon fill="none" stroke="black" points="419.5,-147 419.5,-162 552.5,-162 552.5,-147 419.5,-147"/>
+<text text-anchor="start" x="472.5" y="-152.6" font-family="courier new" font-size="8.00">users</text>
+</g>
+<!-- [root] aws_api_gateway_method.users_post&#45;&gt;[root] aws_api_gateway_resource.users -->
+<g id="edge_8" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M588.986,-215.876C570.659,-206.512 547.764,-194.814 528.172,-184.803"/>
+<polygon fill="black" stroke="black" points="529.64,-181.623 519.143,-180.19 526.455,-187.857 529.64,-181.623"/>
+</g>
+<!-- [root] aws_api_gateway_method_response.authentication_post_201 -->
+<g id="node_6" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="187.5,-450 187.5,-465 356.5,-465 356.5,-450 187.5,-450" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="190.5" y="-455.6" font-family="courier new" font-size="8.00">aws_api_gateway_method_response</text>
+<polygon fill="none" stroke="black" points="187.5,-435 187.5,-450 356.5,-450 356.5,-435 187.5,-435"/>
+<text text-anchor="start" x="211.5" y="-440.6" font-family="courier new" font-size="8.00">authentication_post_201</text>
+</g>
+<!-- [root] aws_api_gateway_method_response.authentication_post_201&#45;&gt;[root] aws_api_gateway_method.authentication_post -->
+<g id="edge_9" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M276.549,-431.849C287.47,-394.753 313.36,-306.81 326.521,-262.103"/>
+<polygon fill="black" stroke="black" points="329.96,-262.814 329.427,-252.232 323.245,-260.837 329.96,-262.814"/>
+</g>
+<!-- [root] aws_api_gateway_method_response.authentication_post_400 -->
+<g id="node_7" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="0.5,-450 0.5,-465 169.5,-465 169.5,-450 0.5,-450" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="3.5" y="-455.6" font-family="courier new" font-size="8.00">aws_api_gateway_method_response</text>
+<polygon fill="none" stroke="black" points="0.5,-435 0.5,-450 169.5,-450 169.5,-435 0.5,-435"/>
+<text text-anchor="start" x="24.5" y="-440.6" font-family="courier new" font-size="8.00">authentication_post_400</text>
+</g>
+<!-- [root] aws_api_gateway_method_response.authentication_post_400&#45;&gt;[root] aws_api_gateway_method.authentication_post -->
+<g id="edge_10" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M104.536,-431.849C148.969,-393.814 255.85,-302.325 306.706,-258.792"/>
+<polygon fill="black" stroke="black" points="309.048,-261.394 314.369,-252.232 304.496,-256.076 309.048,-261.394"/>
+</g>
+<!-- [root] aws_api_gateway_method_response.users_post_201 -->
+<g id="node_8" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="797.5,-450 797.5,-465 966.5,-465 966.5,-450 797.5,-450" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="800.5" y="-455.6" font-family="courier new" font-size="8.00">aws_api_gateway_method_response</text>
+<polygon fill="none" stroke="black" points="797.5,-435 797.5,-450 966.5,-450 966.5,-435 797.5,-435"/>
+<text text-anchor="start" x="845" y="-440.6" font-family="courier new" font-size="8.00">users_post_201</text>
+</g>
+<!-- [root] aws_api_gateway_method_response.users_post_201&#45;&gt;[root] aws_api_gateway_method.users_post -->
+<g id="edge_11" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M874.313,-431.783C859.83,-399.108 824.059,-327.822 772.5,-288 759.22,-277.743 724.755,-265.283 692.207,-255.022"/>
+<polygon fill="black" stroke="black" points="693.234,-251.676 682.646,-252.052 691.157,-258.361 693.234,-251.676"/>
+</g>
+<!-- [root] aws_api_gateway_method_response.users_post_400 -->
+<g id="node_9" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="411.5,-450 411.5,-465 580.5,-465 580.5,-450 411.5,-450" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="414.5" y="-455.6" font-family="courier new" font-size="8.00">aws_api_gateway_method_response</text>
+<polygon fill="none" stroke="black" points="411.5,-435 411.5,-450 580.5,-450 580.5,-435 411.5,-435"/>
+<text text-anchor="start" x="459" y="-440.6" font-family="courier new" font-size="8.00">users_post_400</text>
+</g>
+<!-- [root] aws_api_gateway_method_response.users_post_400&#45;&gt;[root] aws_api_gateway_method.users_post -->
+<g id="edge_12" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M505.678,-431.849C527.879,-394.44 580.767,-305.322 607.082,-260.98"/>
+<polygon fill="black" stroke="black" points="610.18,-262.618 612.273,-252.232 604.16,-259.046 610.18,-262.618"/>
+</g>
+<!-- [root] aws_api_gateway_rest_api.site_api -->
+<g id="node_12" class="node" fill="#1f77b4" opacity="1">
+<polygon fill="none" stroke="black" points="419.5,-90 419.5,-105 552.5,-105 552.5,-90 419.5,-90" style="fill: rgb(31, 119, 180);"/>
+<text text-anchor="start" x="422.5" y="-95.6" font-family="courier new" font-size="8.00">aws_api_gateway_rest_api</text>
+<polygon fill="none" stroke="black" points="419.5,-75 419.5,-90 552.5,-90 552.5,-75 419.5,-75"/>
+<text text-anchor="start" x="464.5" y="-80.6" font-family="courier new" font-size="8.00">site_api</text>
+</g>
+<!-- [root] aws_api_gateway_resource.authentication&#45;&gt;[root] aws_api_gateway_rest_api.site_api -->
+<g id="edge_13" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M371.439,-143.876C391.99,-134.349 417.751,-122.407 439.589,-112.283"/>
+<polygon fill="black" stroke="black" points="441.081,-115.45 448.681,-108.068 438.137,-109.099 441.081,-115.45"/>
+</g>
+<!-- [root] aws_api_gateway_resource.users&#45;&gt;[root] aws_api_gateway_rest_api.site_api -->
+<g id="edge_14" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M485.5,-143.697C485.5,-135.983 485.5,-126.712 485.5,-118.112"/>
+<polygon fill="black" stroke="black" points="489,-118.104 485.5,-108.104 482,-118.104 489,-118.104"/>
+</g>
+<!-- [root] provider.aws -->
+<g id="node_23" class="node" fill="#d62728" opacity="1">
+<polygon fill="none" stroke="black" points="661.5,-18 661.5,-33 710.5,-33 710.5,-18 661.5,-18" style="fill: rgb(214, 39, 40);"/>
+<text text-anchor="start" x="664.5" y="-23.6" font-family="courier new" font-size="8.00">provider</text>
+<polygon fill="none" stroke="black" points="661.5,-3 661.5,-18 710.5,-18 710.5,-3 661.5,-3"/>
+<text text-anchor="start" x="678" y="-8.6" font-family="courier new" font-size="8.00">aws</text>
+</g>
+<!-- [root] aws_api_gateway_rest_api.site_api&#45;&gt;[root] provider.aws -->
+<g id="edge_15" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M534.17,-71.9656C569.587,-59.5694 616.791,-43.0481 649.002,-31.7743"/>
+<polygon fill="black" stroke="black" points="650.205,-35.0615 658.487,-28.4544 647.892,-28.4545 650.205,-35.0615"/>
+</g>
+<!-- [root] aws_iam_role.lambda_role -->
+<g id="node_13" class="node" fill="#aec7e8" opacity="1">
+<polygon fill="none" stroke="black" points="721.5,-162 721.5,-177 791.5,-177 791.5,-162 721.5,-162" style="fill: rgb(174, 199, 232);"/>
+<text text-anchor="start" x="724.5" y="-167.6" font-family="courier new" font-size="8.00">aws_iam_role</text>
+<polygon fill="none" stroke="black" points="721.5,-147 721.5,-162 791.5,-162 791.5,-147 721.5,-147"/>
+<text text-anchor="start" x="727.5" y="-152.6" font-family="courier new" font-size="8.00">lambda_role</text>
+</g>
+<!-- [root] aws_iam_role.lambda_role&#45;&gt;[root] provider.aws -->
+<g id="edge_16" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M747.936,-143.871C735.675,-119.35 713.016,-74.0321 698.629,-45.2589"/>
+<polygon fill="black" stroke="black" points="701.697,-43.5683 694.095,-36.1893 695.436,-46.6988 701.697,-43.5683"/>
+</g>
+<!-- [root] aws_lambda_function.authentication&#45;&gt;[root] aws_iam_role.lambda_role -->
+<g id="edge_17" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M539.779,-219.133C544.079,-218.058 548.36,-217.002 552.5,-216 622.924,-198.962 642.11,-200.853 711.5,-180 711.6,-179.97 711.7,-179.94 711.8,-179.91"/>
+<polygon fill="black" stroke="black" points="712.854,-183.247 721.285,-176.831 710.693,-176.589 712.854,-183.247"/>
+</g>
+<!-- [root] data.aws_s3_bucket_object.s3_build_artifact_bucket -->
+<g id="node_19" class="node" fill="#2ca02c" opacity="1">
+<polygon fill="none" stroke="black" points="570.5,-162 570.5,-177 703.5,-177 703.5,-162 570.5,-162" style="fill: rgb(44, 160, 44);"/>
+<text text-anchor="start" x="584" y="-167.6" font-family="courier new" font-size="8.00">aws_s3_bucket_object</text>
+<polygon fill="none" stroke="black" points="570.5,-147 570.5,-162 703.5,-162 703.5,-147 570.5,-147"/>
+<text text-anchor="start" x="573.5" y="-152.6" font-family="courier new" font-size="8.00">s3_build_artifact_bucket</text>
+</g>
+<!-- [root] aws_lambda_function.authentication&#45;&gt;[root] data.aws_s3_bucket_object.s3_build_artifact_bucket -->
+<g id="edge_18" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M523.194,-215.876C543.518,-206.392 568.971,-194.513 590.602,-184.419"/>
+<polygon fill="black" stroke="black" points="592.343,-187.469 599.925,-180.068 589.383,-181.126 592.343,-187.469"/>
+</g>
+<!-- [root] aws_lambda_function.users&#45;&gt;[root] aws_iam_role.lambda_role -->
+<g id="edge_19" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M756.5,-215.697C756.5,-207.983 756.5,-198.712 756.5,-190.112"/>
+<polygon fill="black" stroke="black" points="760,-190.104 756.5,-180.104 753,-190.104 760,-190.104"/>
+</g>
+<!-- [root] aws_security_group.site_api -->
+<g id="node_17" class="node" fill="#ffbb78" opacity="1">
+<polygon fill="none" stroke="black" points="810.5,-162 810.5,-177 911.5,-177 911.5,-162 810.5,-162" style="fill: rgb(255, 187, 120);"/>
+<text text-anchor="start" x="813.5" y="-167.6" font-family="courier new" font-size="8.00">aws_security_group</text>
+<polygon fill="none" stroke="black" points="810.5,-147 810.5,-162 911.5,-162 911.5,-147 810.5,-147"/>
+<text text-anchor="start" x="839.5" y="-152.6" font-family="courier new" font-size="8.00">site_api</text>
+</g>
+<!-- [root] aws_lambda_function.users&#45;&gt;[root] aws_security_group.site_api -->
+<g id="edge_20" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M781.941,-215.876C795.287,-206.893 811.824,-195.763 826.278,-186.034"/>
+<polygon fill="black" stroke="black" points="828.619,-188.677 834.961,-180.19 824.711,-182.87 828.619,-188.677"/>
+</g>
+<!-- [root] aws_lambda_function.users&#45;&gt;[root] data.aws_s3_bucket_object.s3_build_artifact_bucket -->
+<g id="edge_21" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M727.145,-215.876C711.455,-206.724 691.943,-195.342 675.046,-185.485"/>
+<polygon fill="black" stroke="black" points="676.37,-182.205 665.968,-180.19 672.842,-188.252 676.37,-182.205"/>
+</g>
+<!-- [root] data.aws_subnet_ids.private -->
+<g id="node_21" class="node" fill="#98df8a" opacity="1">
+<polygon fill="none" stroke="black" points="929.5,-162 929.5,-177 1009.5,-177 1009.5,-162 929.5,-162" style="fill: rgb(152, 223, 138);"/>
+<text text-anchor="start" x="932.5" y="-167.6" font-family="courier new" font-size="8.00">aws_subnet_ids</text>
+<polygon fill="none" stroke="black" points="929.5,-147 929.5,-162 1009.5,-162 1009.5,-147 929.5,-147"/>
+<text text-anchor="start" x="951" y="-152.6" font-family="courier new" font-size="8.00">private</text>
+</g>
+<!-- [root] aws_lambda_function.users&#45;&gt;[root] data.aws_subnet_ids.private -->
+<g id="edge_22" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M809.413,-215.993C841.333,-205.684 882.793,-192.207 919.5,-180 919.601,-179.967 919.701,-179.933 919.802,-179.9"/>
+<polygon fill="black" stroke="black" points="921.027,-183.18 929.399,-176.687 918.805,-176.542 921.027,-183.18"/>
+</g>
+<!-- [root] aws_lambda_permission.authentication -->
+<g id="node_16" class="node" fill="#ff7f0e" opacity="1">
+<polygon fill="none" stroke="black" points="325.5,-378 325.5,-393 442.5,-393 442.5,-378 325.5,-378" style="fill: rgb(255, 127, 14);"/>
+<text text-anchor="start" x="328.5" y="-383.6" font-family="courier new" font-size="8.00">aws_lambda_permission</text>
+<polygon fill="none" stroke="black" points="325.5,-363 325.5,-378 442.5,-378 442.5,-363 325.5,-363"/>
+<text text-anchor="start" x="347" y="-368.6" font-family="courier new" font-size="8.00">authentication</text>
+</g>
+<!-- [root] aws_lambda_permission.authentication&#45;&gt;[root] aws_api_gateway_method.authentication_post -->
+<g id="edge_23" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M377.589,-359.871C369.202,-335.564 353.761,-290.819 343.821,-262.013"/>
+<polygon fill="black" stroke="black" points="347.002,-260.501 340.432,-252.189 340.385,-262.784 347.002,-260.501"/>
+</g>
+<!-- [root] aws_lambda_permission.authentication&#45;&gt;[root] aws_lambda_function.authentication -->
+<g id="edge_24" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M383.33,-359.71C383.96,-340.546 387.494,-309.51 402.5,-288 411.237,-275.475 423.983,-265.273 436.917,-257.286"/>
+<polygon fill="black" stroke="black" points="438.956,-260.15 445.855,-252.109 435.447,-254.093 438.956,-260.15"/>
+</g>
+<!-- [root] data.aws_vpc.vpc -->
+<g id="node_22" class="node" fill="#ffbb78" opacity="1">
+<polygon fill="none" stroke="black" points="839.5,-90 839.5,-105 882.5,-105 882.5,-90 839.5,-90" style="fill: rgb(255, 187, 120);"/>
+<text text-anchor="start" x="842.5" y="-95.6" font-family="courier new" font-size="8.00">aws_vpc</text>
+<polygon fill="none" stroke="black" points="839.5,-75 839.5,-90 882.5,-90 882.5,-75 839.5,-75"/>
+<text text-anchor="start" x="853" y="-80.6" font-family="courier new" font-size="8.00">vpc</text>
+</g>
+<!-- [root] aws_security_group.site_api&#45;&gt;[root] data.aws_vpc.vpc -->
+<g id="edge_25" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M860.5,-143.697C860.5,-135.983 860.5,-126.712 860.5,-118.112"/>
+<polygon fill="black" stroke="black" points="864,-118.104 860.5,-108.104 857,-118.104 864,-118.104"/>
+</g>
+<!-- [root] aws_security_group_rule.private_egress_all -->
+<g id="node_18" class="node" fill="#ffbb78" opacity="1">
+<polygon fill="none" stroke="black" points="1022.5,-450 1022.5,-465 1149.5,-465 1149.5,-450 1022.5,-450" style="fill: rgb(255, 187, 120);"/>
+<text text-anchor="start" x="1025.5" y="-455.6" font-family="courier new" font-size="8.00">aws_security_group_rule</text>
+<polygon fill="none" stroke="black" points="1022.5,-435 1022.5,-450 1149.5,-450 1149.5,-435 1022.5,-435"/>
+<text text-anchor="start" x="1038.5" y="-440.6" font-family="courier new" font-size="8.00">private_egress_all</text>
+</g>
+<!-- [root] aws_security_group_rule.private_egress_all&#45;&gt;[root] aws_security_group.site_api -->
+<g id="edge_26" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M1072.1,-431.966C1034.12,-383.696 925.64,-245.8 880.541,-188.475"/>
+<polygon fill="black" stroke="black" points="883.049,-186.002 874.115,-180.306 877.548,-190.33 883.049,-186.002"/>
+</g>
+<!-- [root] data.aws_s3_bucket_object.s3_build_artifact_bucket&#45;&gt;[root] provider.aws -->
+<g id="edge_27" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M642.411,-143.871C650.798,-119.564 666.239,-74.8187 676.179,-46.0132"/>
+<polygon fill="black" stroke="black" points="679.615,-46.784 679.568,-36.1893 672.998,-44.5006 679.615,-46.784"/>
+</g>
+<!-- [root] data.aws_subnet.private -->
+<g id="node_20" class="node" fill="#ffbb78" opacity="1">
+<polygon fill="none" stroke="black" points="1167.5,-450 1167.5,-465 1226.5,-465 1226.5,-450 1167.5,-450" style="fill: rgb(255, 187, 120);"/>
+<text text-anchor="start" x="1170.5" y="-455.6" font-family="courier new" font-size="8.00">aws_subnet</text>
+<polygon fill="none" stroke="black" points="1167.5,-435 1167.5,-450 1226.5,-450 1226.5,-435 1167.5,-435"/>
+<text text-anchor="start" x="1178.5" y="-440.6" font-family="courier new" font-size="8.00">private</text>
+</g>
+<!-- [root] data.aws_subnet.private&#45;&gt;[root] data.aws_subnet_ids.private -->
+<g id="edge_28" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M1182.98,-431.966C1144.67,-383.696 1035.22,-245.8 989.72,-188.475"/>
+<polygon fill="black" stroke="black" points="992.195,-185.963 983.236,-180.306 986.712,-190.315 992.195,-185.963"/>
+</g>
+<!-- [root] data.aws_subnet_ids.private&#45;&gt;[root] data.aws_vpc.vpc -->
+<g id="edge_29" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M942.836,-143.876C928.716,-134.808 911.189,-123.552 895.939,-113.759"/>
+<polygon fill="black" stroke="black" points="897.573,-110.648 887.267,-108.19 893.79,-116.538 897.573,-110.648"/>
+</g>
+<!-- [root] data.aws_vpc.vpc&#45;&gt;[root] provider.aws -->
+<g id="edge_30" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M833.156,-78.0625C803.233,-66.0934 755.119,-46.8475 721.992,-33.5967"/>
+<polygon fill="black" stroke="black" points="723.236,-30.325 712.652,-29.8607 720.637,-36.8243 723.236,-30.325"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup) -->
+<g id="node_24" class="node" fill="#d62728" opacity="1">
+<polygon fill="none" stroke="black" points="605.5,-522 605.5,-537 685.5,-537 685.5,-522 605.5,-522" style="fill: rgb(214, 39, 40);"/>
+<text text-anchor="start" x="634.5" y="-527.6" font-family="courier new" font-size="8.00">meta</text>
+<polygon fill="none" stroke="black" points="605.5,-507 605.5,-522 685.5,-522 685.5,-507 605.5,-507"/>
+<text text-anchor="start" x="608.5" y="-512.6" font-family="courier new" font-size="8.00">count-boundary</text>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_api_gateway_base_path_mapping.site_api -->
+<g id="edge_31" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M656.129,-503.697C661.128,-495.559 667.191,-485.689 672.712,-476.701"/>
+<polygon fill="black" stroke="black" points="675.741,-478.457 677.993,-468.104 669.777,-474.793 675.741,-478.457"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_api_gateway_method_response.authentication_post_201 -->
+<g id="edge_32" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M605.475,-513.509C548.847,-502.91 443.643,-483.219 366.391,-468.76"/>
+<polygon fill="black" stroke="black" points="366.635,-465.245 356.162,-466.846 365.347,-472.126 366.635,-465.245"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_api_gateway_method_response.authentication_post_400 -->
+<g id="edge_33" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M605.315,-517.379C525.875,-510.019 342.941,-492.077 179.355,-468.224"/>
+<polygon fill="black" stroke="black" points="179.509,-464.709 169.107,-466.718 178.491,-471.635 179.509,-464.709"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_api_gateway_method_response.users_post_201 -->
+<g id="edge_34" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M685.549,-506.894C688.571,-505.895 691.58,-504.92 694.5,-504 731.704,-492.285 773.435,-480.344 808.02,-470.769"/>
+<polygon fill="black" stroke="black" points="809.333,-474.038 818.042,-468.005 807.472,-467.29 809.333,-474.038"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_api_gateway_method_response.users_post_400 -->
+<g id="edge_35" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M608.806,-503.876C588.482,-494.392 563.029,-482.513 541.398,-472.419"/>
+<polygon fill="black" stroke="black" points="542.617,-469.126 532.075,-468.068 539.657,-475.469 542.617,-469.126"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_lambda_permission.authentication -->
+<g id="edge_36" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M605.35,-517.546C543.609,-511.396 429.535,-496.44 401.5,-468 385.719,-451.992 381.934,-426.204 381.677,-406.498"/>
+<polygon fill="black" stroke="black" points="385.18,-406.332 381.843,-396.277 378.181,-406.218 385.18,-406.332"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] aws_security_group_rule.private_egress_all -->
+<g id="edge_37" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M685.683,-506.323C688.646,-505.467 691.607,-504.68 694.5,-504 816.639,-475.285 850.257,-485.499 974.5,-468 986.61,-466.294 999.45,-464.404 1011.94,-462.522"/>
+<polygon fill="black" stroke="black" points="1012.49,-465.978 1021.85,-461.017 1011.44,-459.057 1012.49,-465.978"/>
+</g>
+<!-- [root] meta.count&#45;boundary (count boundary fixup)&#45;&gt;[root] data.aws_subnet.private -->
+<g id="edge_38" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M685.646,-506.157C688.618,-505.34 691.591,-504.607 694.5,-504 893.289,-462.508 955.239,-516.147 1156.61,-467.669"/>
+<polygon fill="black" stroke="black" points="1157.74,-470.994 1166.61,-465.204 1156.07,-464.197 1157.74,-470.994"/>
+</g>
+<!-- [root] provider.aws (close) -->
+<g id="node_25" class="node" fill="#d62728" opacity="1">
+<polygon fill="none" stroke="black" points="706.5,-522 706.5,-537 755.5,-537 755.5,-522 706.5,-522" style="fill: rgb(214, 39, 40);"/>
+<text text-anchor="start" x="709.5" y="-527.6" font-family="courier new" font-size="8.00">provider</text>
+<polygon fill="none" stroke="black" points="706.5,-507 706.5,-522 755.5,-522 755.5,-507 706.5,-507"/>
+<text text-anchor="start" x="723" y="-512.6" font-family="courier new" font-size="8.00">aws</text>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_api_gateway_base_path_mapping.site_api -->
+<g id="edge_39" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M720.118,-503.697C715.235,-495.559 709.313,-485.689 703.921,-476.701"/>
+<polygon fill="black" stroke="black" points="706.909,-474.879 698.763,-468.104 700.906,-478.48 706.909,-474.879"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_api_gateway_method_response.authentication_post_201 -->
+<g id="edge_40" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M703.335,-507.073C700.402,-505.903 697.421,-504.845 694.5,-504 568.471,-467.525 531.659,-484.506 401.5,-468 390.033,-466.546 378,-465 366.077,-463.455"/>
+<polygon fill="black" stroke="black" points="366.47,-459.977 356.102,-462.16 365.569,-466.919 366.47,-459.977"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_api_gateway_method_response.authentication_post_400 -->
+<g id="edge_41" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M703.379,-506.914C700.437,-505.774 697.443,-504.768 694.5,-504 474.79,-446.645 407.922,-495.333 179.049,-468.095"/>
+<polygon fill="black" stroke="black" points="179.437,-464.617 169.085,-466.874 178.585,-471.565 179.437,-464.617"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_api_gateway_method_response.users_post_201 -->
+<g id="edge_42" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M757.845,-508.324C779.493,-498.288 810.207,-484.05 835.607,-472.275"/>
+<polygon fill="black" stroke="black" points="837.098,-475.442 844.699,-468.06 834.154,-469.091 837.098,-475.442"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_api_gateway_method_response.users_post_400 -->
+<g id="edge_43" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M703.201,-507.484C700.294,-506.233 697.356,-505.045 694.5,-504 658.438,-490.806 617.608,-479.355 582.359,-470.505"/>
+<polygon fill="black" stroke="black" points="583.121,-467.088 572.573,-468.079 581.437,-473.883 583.121,-467.088"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_lambda_permission.authentication -->
+<g id="edge_44" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M757.764,-520.17C833.76,-516.967 1038.32,-501.8 974.5,-432 970.128,-427.219 607.386,-397.2 452.431,-384.579"/>
+<polygon fill="black" stroke="black" points="452.337,-381.06 442.086,-383.737 451.769,-388.037 452.337,-381.06"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] aws_security_group_rule.private_egress_all -->
+<g id="edge_45" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M757.675,-516.039C807.351,-506.916 916.119,-486.697 1007.5,-468 1008.94,-467.705 1010.4,-467.405 1011.87,-467.101"/>
+<polygon fill="black" stroke="black" points="1012.61,-470.523 1021.68,-465.049 1011.17,-463.671 1012.61,-470.523"/>
+</g>
+<!-- [root] provider.aws (close)&#45;&gt;[root] data.aws_subnet.private -->
+<g id="edge_46" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M757.501,-520.327C824.34,-518.1 1002.65,-508.741 1156.92,-467.681"/>
+<polygon fill="black" stroke="black" points="1157.84,-471.057 1166.58,-465.06 1156.01,-464.301 1157.84,-471.057"/>
+</g>
+<!-- [root] root -->
+<g id="node_26" class="node" fill="#d62728" opacity="1">
+<polygon fill="#d62728" stroke="black" points="724.5,-612 650.5,-612 650.5,-576 724.5,-576 724.5,-612" style="fill: rgb(214, 39, 40);"/>
+<text text-anchor="middle" x="687.5" y="-592.1" font-family="courier new" font-size="8.00">[root] root</text>
+</g>
+<!-- [root] root&#45;&gt;[root] meta.count&#45;boundary (count boundary fixup) -->
+<g id="edge_47" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M677.118,-575.697C672.235,-567.559 666.313,-557.689 660.921,-548.701"/>
+<polygon fill="black" stroke="black" points="663.909,-546.879 655.763,-540.104 657.906,-550.48 663.909,-546.879"/>
+</g>
+<!-- [root] root&#45;&gt;[root] provider.aws (close) -->
+<g id="edge_48" class="edge" opacity="1">
+<path fill="none" stroke="black" d="M698.129,-575.697C703.128,-567.559 709.191,-557.689 714.712,-548.701"/>
+<polygon fill="black" stroke="black" points="717.741,-550.457 719.993,-540.104 711.777,-546.793 717.741,-550.457"/>
+</g>
+</g>
+</g></svg>

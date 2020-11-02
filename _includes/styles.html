@@ -1,0 +1,244 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" media="all">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<style amp-custom>
+/*reset*/ 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size:xx-large;
+    padding:0.5rem;
+}
+h2{
+    font-size:x-large;
+    padding:0.5rem;
+}
+h3{
+    font-size:large;
+    padding:0.5rem;
+}
+h4{
+    font-size:medium;
+    padding:0.5rem;
+}
+p {
+    padding:0.5rem;
+  line-height :1.5rem;
+}
+ul{
+    padding: 0.5rem;
+    padding-left:2.3rem;
+    line-height: 1.5rem;
+    list-style-type: circle;
+}
+a {
+    text-decoration: #ffffff;
+    color:#000000;
+}
+amp-img {
+    max-width: 100%;
+}
+code[class*="language-"], pre[class*="language-"] {
+    width: 100%;
+    margin: 0;
+}
+pre {
+    background-color: #EEE;
+    padding: 0.5rem;
+}
+ code, code p, code ul, code li, code span {
+    font-family: monospace;
+    background-color: #EEE;
+}
+ pre {
+    overflow: scroll;
+} 
+
+#main {
+    background: url("/assets/img/background.svg")
+}
+table td, table th {
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0.1em;
+}
+table tr:nth-child(even) {
+  background: #E6F3FF;  
+}
+table thead th {
+  font-weight: bold;  
+}
+
+.bold {
+    font-weight: bold;
+}
+.author{
+    padding-left:0.5rem;
+}
+
+.reading-time {
+    color: #ddd;
+    font-style: italic;
+}
+
+    .hidden-bigger-than-mobile{
+        display:none;
+    }
+    .clearfix {
+    overflow: auto;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 960px;
+    padding: 1rem;
+    box-shadow: 3px 6px 10px -1px rgba(112,111,112,0.6);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;    
+}
+
+.blog-article-header p {
+    line-height: 1rem;
+    padding: 0;
+        
+}
+.blog-article-header {
+    padding-bottom:0.5rem;
+    background-color:#333;
+    color:#fff;    
+}
+
+.site-name {
+    background-color:#333;
+    color:#fff;    
+}
+
+.article-info{
+    padding-top:0.5rem;
+    display:flex;    
+}
+
+.article-info img{
+    border-radius: 50%;
+    margin-left:0.5rem;
+}
+
+    .article-image {
+        min-width: 100%;
+        width: 100%;
+        min-height: 100%;
+        height: 100%;
+    }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .article-image {
+        min-width: 0;
+        min-height: 0;
+        margin: auto;
+        width: 50%;
+        height:50%;        
+        max-width: 20rem;
+        max-height: 20rem;
+
+    }
+}
+@media (min-width: 1025px) {
+    .article-image {
+        min-width: 0;
+        min-height: 0;
+        margin: auto;
+        width: 50%;
+        height:50%;
+        max-width: 30rem;
+        max-height: 30rem;
+    }
+}
+
+.back-button{
+    position: absolute;
+    padding:0.5rem;
+    line-height: 1.5rem;
+    top: 1rem;
+    left: 1rem;
+    display:inline;
+    font-size: xx-large;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+    .article-header {
+        position: absolute;
+        padding:0.5rem;
+        line-height: 3rem;
+        top: 4rem;
+        right: 2rem;
+        display:inline;
+        font-size: xx-large;
+        background-color:rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+    }
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .article-header {
+        position: relative;
+        padding:0.5rem;
+        line-height: 3rem;
+        top: 0;
+        right: 0;
+        display:block;
+        font-size: xx-large;
+        background-color:rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+    }
+    .article-header h1{
+        margin-top: -4rem;
+        margin-bottom: 4rem;
+    }
+}
+@media (min-width: 1025px) {
+    .article-header {
+        position: relative;
+        padding:0.5rem;
+        line-height: 3rem;
+        top: 0;
+        right: 0;
+        display:block;
+        font-size: xx-large;
+        background-color:rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+    }
+    .article-header h1{
+        margin-top: -4rem;
+        margin-bottom: 4rem;
+    }
+}
+
+    .blog-article-image-gradient{
+        background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, .1) 40%, rgba(255, 255, 255, .5) 75%, rgba(255, 255, 255, 1) 100%) repeat scroll 0 0;
+        position: relative; 
+        margin-top: -5rem;
+        height: 5rem;
+    }
+
+    .snippet-articles {
+        opacity: 0.85s;
+    }
+
+</style>

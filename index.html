@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<style>
+.snippet-articles {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.article-highlight {
+  width:100%;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .article-highlight {
+    width:33%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+  }
+}
+
+.article-hightlight-cover{
+  flex-grow:2;
+  flex: 30%;
+}
+.article-highlight-info{
+  flex-grow:8;
+  flex: 70%;
+  width: 100%;
+}
+
+.article-highlight-cover img {
+  max-height: 10rem;
+  max-width: 10rem;
+}
+</style>
+
+<div class="container snippet-articles"">
+  {% for post in site.posts %}
+  <div class="article-highlight">
+    <div class="article-highlight-cover">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">    
+        <img src="{{ post.image }}-thumb.jpg" width="160" height="160"></img>
+      </a>
+    </div>
+    <div class="article-highlight-info">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">    
+        <p class="post-date">{{ post.date | date: "%B %e, %Y" }}.</p>
+        <h4>{{ post.title }}</h4>         
+        <p class="short-intro">{{ post.content | strip_html | truncatewords: 30 }}</p>               
+      </a>
+    </div>  
+  </div>
+ {% endfor %}
+</div>

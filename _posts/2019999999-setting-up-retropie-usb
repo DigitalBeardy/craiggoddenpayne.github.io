@@ -1,0 +1,79 @@
+---
+#layout: post
+#title: Setting up RetroPie on Usb
+#image: /assets/img/
+#readtime: 5 mins
+---
+
+I've had various setups of RetroPie over the years, and one thing that always seems to happen is corruption of the SD card when you overclock the raspberry pi. 
+
+This is a tutorial of how to setup RetroPie, using the SD only to hand off to a USB flash drive, which will be used as the main drive for RetroPie.
+
+
+Download the latest pre-made image for your version of raspberry pi: 
+[https://retropie.org.uk/download/](https://retropie.org.uk/download/)
+
+Extract the image
+```
+gunzip retropie-4.4-rpi2_rpi3.img.gz
+```
+
+Check what path has been assigned for your usb device by using the command
+```
+lsblk
+```
+In my case, it is sdb
+
+Write the image to your usd device
+```
+sudo dd bs=4M if=retropie-4.4-rpi2_rpi3.img of=/dev/sdb
+```
+
+This will now create 2 partitions, the boot partition and the main.
+
+We need to copy the boot partition files over to the sdcard.
+
+First start by setting up the memory card
+
+```
+fdisk /dev/mmcblk0
+
+press d, and delete all partitions
+then press n, and create a new partition 
+make sure it is primary and bootable.
+```
+
+Onces its all setup, mount the usb and sd card
+
+```
+mkdir /media/usbdrive-boot
+mount /dev/sdb1 /media/usbdrive-boot
+
+mkdir /media/sdcard-boot
+mount /dev/sdb1 /media/sdcard-boot
+```
+
+Then copy all the files from the usb boot partition, over to the sd card
+
+```
+cp -r * /media/usbdrive-boot/ /media/sdcard-boot/
+```
+
+Then change the pointer in the cmdline.txt file, to say where the main partition is kept.
+
+
+
+
+You now won't be able to resize the partition using raspi-config, but you should still be able to do this using the command line
+
+```
+fdisk /dev/sda
+```
+
+```
+print partitions
+delete second partion
+create new partition and start at same block as previously
+make sure its primary and linux
+reboot
+```

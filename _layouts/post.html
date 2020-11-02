@@ -1,0 +1,33 @@
+---
+layout: postlayout
+---
+<article>  
+  <amp-img class="article-image" src="{{ page.image }}" alt="CoverImage" height="100" width="100" layout="responsive"></amp-img>    
+  <div class="blog-article-image-gradient hidden-bigger-than-mobile"></div>
+    <div class="container">   
+    <a class="back-button" href="http://craig.goddenpayne.co.uk"><</a>	                
+    <div class="blog-article-header">
+      <div class="clearfix">
+        <h1 class="article-header">{{ page.title }}</h1>
+      </div>  
+      <div class="article-info">
+        <amp-img src="/assets/avatar.jpg" alt="Avatar" height="64" width="64"></amp-img>
+        <div class="author">
+          <p class="bold">Written by Craig Godden-Payne</p>
+          <p>On {{ page.date | date: "%B %e, %Y" }}</p>
+          <p class="reading-time">
+            {% if page.readtime == null %}
+            I hope you enjoy this post!
+            {% else %} 
+            Reading this will take about {{page.readtime}}.
+            {% endif %}
+          </p>
+        </div>
+      </div>               
+    </div> 
+    {{ content }}
+    <div class="date">
+      <p>Written on {{ page.date | date: "%B %e, %Y" }}.</p>            
+    </div>
+  </div>
+</article>

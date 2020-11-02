@@ -1,0 +1,80 @@
+﻿postId;title;slug;firstPublishedAt;readingTime;views;reads;upvotes;claps
+342584d4f1e3;Setup managed client VPN in AWS using Terraform.;setup-managed-client-vpn-in-aws-using-terraform;1595413329113;5;38;24;1;1
+38299014583a;What is GitOps? And how can I apply GitOps techniques?;what-is-gitops;1594274687468;4;38;22;3;12
+313f91a32930;Creating a low cost recoverable EC2 instance utilising terraform;creating-a-low-cost-recoverable-ec2-instance-utilising-terraform;1594112818783;5;8;5;0;0
+2e061f6c3655;Apache Airflow Running on a Raspberry PI;apache-airflow-running-on-a-raspberry-pi;1594104324370;3;266;171;7;56
+79075d52ed43;SSH Tunneling, a guide.;ssh-tunneling-a-guide;1593598648885;3;120;43;2;6
+fe996df780d6;The Only Step You Need to Progress in Your Career as a Developer or Engineer.;progressing-in-your-career-and-how-to-become-more-t-shaped;1593592398918;6;652;269;6;115
+a4044245f645;Creating a Simple, Low-Cost Twitter Bot, utilising Serverless Technologies.;creating-a-simple-low-cost-twitter-bot-utilising-serverless-technologies;1593526879383;6;206;144;2;2
+c350115dc7fd;Using Microservice Patterns in an increasingly Serverless world;using-microservice-patterns-in-an-increasingly-serverless-world;1593414349242;4;704;459;5;56
+40f79bff59a5;Automating importing of existing infrastructure in terraform.;automating-importing-of-existing-infrastructure-in-terraform;1593379216174;6;240;77;1;3
+a74b7bba4102;Three misconceptions about Serverless, and why Serverless is often misunderstood?;three-misconceptions-about-serverless-and-why-serverless-is-often-misunderstood;1593157187558;5;341;140;6;56
+b4374e6ca7e5;How does DNS work?;debunking-the-complexities-in-understanding-dns;1593068446837;8;55;21;3;7
+84088b2c7bd5;Why should you adopt Blockchain?;why-should-you-adopt-blockchain;1592983309308;10;68;13;3;42
+a6ae168ad2bb;Importing Existing Infrastructure into Terraform;importing-existing-infrastructure-into-terraform;1592811941281;7;2967;1413;25;83
+4f4bd5ed1e59;Migrating an app to AWS without the use of a container — Using Elastic Beanstalk Custom Platforms;migrating-an-app-to-aws-without-the-use-of-a-container-using-elastic-beanstalk-custom-platforms;1591771513631;4;10;6;0;0
+5775f48de263;4 Simplistic Ways To Improve Your Software Deployments;4-really-simple-ways-to-improve-your-software-deployments;1591710770733;5;157;81;2;50
+a4963d378356;How have websites changed over the last 30 years?;how-has-the-web-has-changed-over-the-last-30-years;1591693441414;9;7;7;0;0
+cb30ae68899a;What Is Event Driven Architecture, and When Should I Use It?;what-is-event-driven-architecture-and-when-should-i-use-it;1591610760287;4;2070;1220;40;135
+8305f60e52f9;How to register a Route 53 Private Zone across multiple VPCs;how-to-register-a-route-53-private-zone-across-multiple-vpcs;1591610675020;2;40;30;1;1
+df154a46628f;Mastering List Comprehensions And Expressions In Python;mastering-list-comprehensions-and-expressions-in-python;1589354738658;2;296;189;5;54
+2ec0a9b2d2c1;Handy Python Snippets To Handle Random Things;handy-python-snippets-to-handle-random-things;1589354675239;1;10;9;0;0
+ff2b39b420b6;How to securely use AWS Secrets Manager to inject secrets into ECS using Infrastructure as Code…;how-to-securely-use-aws-secrets-manager-to-inject-secrets-into-ecs-using-infrastructure-as-code;1589272826674;4;1063;551;13;82
+e55d9bfd0aad;Benefits of Serverless and Event Driven Design;benefits-of-serverless-and-event-driven-design;1589098917086;4;230;125;2;92
+ac277a5422d0;Are gated approvals in Azure Devops Code Pipeline possible?;are-gated-approvals-in-azure-devops-code-pipeline-possible;1588756460001;3;16;11;0;0
+76ae713e7ddb;Infrastructure as code — from Terraform to AWS.;lets-setup-a-basic-vpc-in-aws-using-terraform-a-guide;1588440641592;6;140;46;3;5
+e8bc4df61f7f;Overriding ASP Net Core Settings with Environment Variables in a container.;overriding-aspnetcore-settings-with-environment-variables-in-docker;1588322929264;3;729;490;4;53
+b55162d95312;Certificate Chains, And How They Work;understanding-certificate-chains;1587284441399;3;111;60;2;7
+23ab95347d25;What the ware?;what-the-ware;1587279685267;7;386;42;7;124
+bea5fd982caa;How Certificates Work On The Web;certificates-and-the-web-a-high-level-overview;1587195725368;4;138;59;3;6
+b8c952f9eedf;How have the world’s most popular websites evolved over time?;how-have-the-worlds-most-popular-websites-have-evolved-over-time;1586719087280;10;396;132;11;93
+b7e0e1b7373a;How to look for a job during the Coronavirus outbreak;help-looking-for-a-job-during-the-coronavirus-outbreak;1584950092551;5;695;346;10;149
+655dd26b29c5;No Internets? — How To Bypass Government Shutdowns;the-end-of-the-world-how-to-communicate-on-the-internet-when-the-internet-is-turned-off;1584915878932;6;117;40;1;1
+1ea9987b85d;What Is Event Driven Architecture, and When Should I Use It?;what-is-event-driven-architecture-and-when-should-i-use-it;1584824138327;4;5651;3234;124;417
+337c6e889861;The Evolution Of Design On The Web;8-most-popular-websites-and-how-they-have-evolved-since-the-web-was-created;1584701206231;9;508;244;8;126
+ce8732792e30;Using Bash To Wait For Things To Happen — (Waiting With Bash);using-bash-to-wait-for-things-to-happen-waiting-with-bash;1584522347826;2;73;61;1;1
+f080f0d519f3;How To Check Whether An EC2 Instance Has Finished Initialising?;how-to-check-whether-an-ec2-instance-has-finished-initialising;1584457673304;2;27;15;1;1
+3b59db931a0d;How Google’s homepage has changed over the last 20 years;google-how-the-biggest-search-engines-homepage-has-changed-over-the-last-20-years;1584223488721;9;1442;616;18;90
+be16694b9c78;The Google Foobar Challenge — What Is It, And How To Get Selected;the-google-foobar-developer-challenge-what-is-it-and-how-to-get-selected;1584167414004;7;3157;1761;7;12
+a7b3df2202c;Delegating Access To AWS Resources Using IAM and STS (Switch Roles);delegating-access-to-aws-resources-using-iam-and-sts-switch-roles;1583997982116;6;371;162;2;2
+f6978ce60562;An Exploration Of Pandas For A New User, And Visualising What Is Going On With Coronavirus;an-exploration-of-pandas-for-a-new-user-and-visualising-what-is-going-on-with-coronavirus;1583964170945;9;63;35;3;67
+e9f1e3f7667b;10 Reasons Working With Any Kind Of Data In Python, Using Pandas Dataframes Is Awesome;8-reasons-working-with-any-kind-of-data-in-python-using-pandas-dataframes-is-awesome;1583877347431;8;82;17;6;92
+36cad6d62541;30 years of evolution — how the web has changed;9-ways-that-website-layouts-have-changed-since-the-web-was-created;1583826630408;9;8073;4659;127;650
+7fbd6e559aeb;How to: run a cost effective blue green like deployment using ECS or Fargate;how-to-run-a-cost-effective-blue-green-like-deployment-using-ecs-or-fargate;1583735480562;5;529;241;8;58
+ff8b86a1af31;Automating developer operations with blue green deployments;automating-developer-operations-with-blue-green-deployments;1583662256160;3;31;22;2;2
+64fac85a82ee;4 simple ways to improve your software deployments;4-simple-ways-to-improve-your-software-deployments;1583655116130;4;1278;671;24;145
+369772f8b8f9;Monitor and Alert from Elasticsearch and Kibana, in AWS Managed Elasticsearch;monitor-and-alert-from-elasticsearch-and-kibana-in-aws-managed-elasticsearch;1582221687382;3;182;99;2;6
+1c886aa0d099;Terraform remote state — sharing information across state files;terraform-remote-state-sharing-information-across-state-files;1582039911158;2;89;56;1;1
+eae80f52494b;Delivering Continuously — Automation Of Software Deployments and Rolling Deployments;automation-of-deployments-and-blue-green;1581088055761;11;1082;354;32;156
+b723baf89528;Using boto to consume a service assuming a role within another account with terraform.;using-boto-to-consume-a-service-assuming-a-role-within-another-account-with-terraform;1581087901386;2;144;100;2;2
+8fcb94407ccc;Setting Up Airflow Using Celery Executors in Docker;etting-up-airflow-using-celery-executors-in-docker;1581087847355;5;584;387;3;85
+77618a651ff7;How to hot reload grapphql using webpacks Hot Module Replacement Plugin;how-to-hot-reload-grapphql-using-webpacks-hot-module-replacement-plugin;1581087458388;3;10;5;1;1
+a1f7c4406ee7;What is AWS App Mesh?;using-aws-app-mesh;1581087408002;3;27;15;1;1
+50223e5dd7b9;Reflected Cross Site Scripting;reflected-cross-site-scripting;1581087367112;3;24;8;2;6
+b2d2b031bc28;Overview of Data Analytics in AWS — Glue, Athena and DataLake;overview-of-data-analytics-in-aws-glue-athena-and-datalake;1581087268207;6;1053;474;23;100
+383d9ec89400;Example of an ETL job in AWS Glue, and query in AWS Athena;example-of-an-etl-job-in-aws-glue-and-query-in-aws-athena;1581087209283;5;480;278;4;83
+e7677426fa44;Diving into AWS Athena;diving-into-aws-athena;1581087139002;3;429;215;6;58
+bf55c0f5f783;Visualising AWS Glue history in Spark UI History Server;visualising-aws-glue-history-in-spark-ui-history-server;1581087090211;3;168;139;2;2
+7929bf364b9b;Performance Testing an Api using Artillery and Faker;performance-testing-an-api-using-artillery-and-faker;1581087040427;3;63;32;1;1
+aa5782908979;Performance issues with AWS Glue;performance-issues-with-aws-glue;1581086999106;3;1185;1006;3;3
+51ce72df70a;Airflow dynamic DAG graph flow changes at run time.;airflow-dynamic-dag-graph-flow-changes-at-run-time;1581086950806;2;745;627;1;1
+654841765c5e;Hack Manchester 2019 — Runner up for best companies;hack-manchester-2019-runner-up-for-best-companies;1573570306727;3;4;1;1;1
+6eb9db3d7d69;How to hot reload grapphql using webpacks Hot Module Replacement Plugin;how-to-hot-reload-grapphql-using-webpacks-hot-module-replacement-plugin;1573570184665;3;281;211;1;1
+dc6f1c56394f;Reflected Cross Site Scripting;reflected-cross-site-scripting;1573570095552;3;32;9;1;1
+3851d2406956;ATDD — working with the acceptance test development paradigm;acceptance-test-driven-development;1540537432658;6;298;114;3;47
+d8979aaf724d;Building a Serverless API;setting-up-a-serverless-api-using-api-gateway-aws-lambda-dotnetcore-and-terraform;1540537321671;7;1383;570;4;6
+6c4327df1eb1;How to secure AWS services?;aws-security-and-iam-policies;1540537231169;6;344;128;2;2
+5d3c01612c8f;Load Balancers in AWS;load-balancers-in-aws;1540537045301;3;89;59;1;1
+bc7840e1582e;Setting up a simple cloud in AWS;setting-up-a-simple-cloud-in-aws;1540536960726;4;29;7;1;1
+4b9136ddb26;Webpack;webpack;1540536885428;5;8;1;1;1
+2137cbd325a2;Module Loaders and Transpilers;module-loaders-and-transpilers;1540536814119;5;15;7;1;1
+c4ea00d16c29;Why use jekyll as a blogging platform?;why-use-jekyll-as-a-blogging-platform;1540536607801;3;9;6;2;2
+37325fb1a384;Front End North Conference 2018;front-end-north-conference-2018;1540536496778;6;5;2;1;1
+ae356d6fdc46;HacManchester 2017 — GCHQ Challenge;hacmanchester-2017-gchq-challenge;1540536380168;4;3;1;1;1
+e52f9d135a9d;Log Rotate in Unix;log-rotate-in-unix;1540536287366;2;17;13;1;1
+51bd40980cda;Mob Programming;mob-programming;1540536169102;3;11;7;2;2
+310a19f52ca;Elasticsearch Bulk Api for data migration;elasticsearch-bulk-api-for-data-migration;1540536034811;5;35;20;1;1
+1b4b5125abdd;How does the technology behind cryptocurrency work?;blockchain-and-cryptoeconomics-how-it-works;1538600365370;9;15;3;4;86
+c1aca60e8551;How to setup a free CI/CD with GoCD using Docker, managed with terraform;setting-up-ci-environment-using-docker-ecs-and-terraform-for-thoughtworks-gocd;1538600010953;6;1136;594;1;1
+
+cc2065ba0433;You exactly right about scenario 1, it can in a scenario where for example user a is on branch a…;you-exactly-right-about-scenario-1-it-can-in-a-scenario-where-for-example-user-a-is-on-branch-a;1594015609417;1;0;0;0;0

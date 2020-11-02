@@ -1,0 +1,44 @@
+name: Craig Godden-Payne
+description: Technical explorations and write ups of technology that inspires and interests me
+avatar: https://craig.goddenpayne.co.uk/assets/avatar.jpg
+footer-links:
+  dribbble:
+  email:
+  facebook: 
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss: a # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+url: https://craig.goddenpayne.co.uk
+baseurl: ""
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+safe: false
+future: true
